@@ -100,7 +100,7 @@ def get_encoder(model_name, models_dir):
 
 def download_vocab():
     # Modified code from
-    subdir = "gpt2_model"
+    subdir = "gpt2"
     if not os.path.exists(subdir):
         os.makedirs(subdir)
     subdir = subdir.replace("\\", "/")  # needed for Windows
